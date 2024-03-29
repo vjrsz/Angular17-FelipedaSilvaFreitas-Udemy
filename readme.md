@@ -79,7 +79,7 @@ Projeto tem como base o aprendizado do Angular 16/17 com o curso do Felipe na UD
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vjrsz/IUUL-DESAFIOS.git
+   git clone https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy
    ```
 2. Install maven Dependencies
 
@@ -116,16 +116,16 @@ Have fun exploring Calculator in Vue.js! thanks!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/vjrsz/IUUL-DESAFIOS.svg?style=for-the-badge
-[contributors-url]: https://github.com/vjrsz/IUUL-DESAFIOS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vjrsz/IUUL-DESAFIOS.svg?style=for-the-badge
-[forks-url]: https://github.com/vjrsz/IUUL-DESAFIOS/network/members
-[stars-shield]: https://img.shields.io/github/stars/vjrsz/IUUL-DESAFIOS.svg?style=for-the-badge
-[stars-url]: https://github.com/vjrsz/IUUL-DESAFIOS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vjrsz/IUUL-DESAFIOS.svg?style=for-the-badge
-[issues-url]: https://github.com/vjrsz/IUUL-DESAFIOS/issues
-[license-shield]: https://img.shields.io/github/license/vjrsz/IUUL-DESAFIOS.svg?style=for-the-badge
-[license-url]: https://github.com/vjrsz/IUUL-DESAFIOS/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy.svg?style=for-the-badge
+[contributors-url]: https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy.svg?style=for-the-badge
+[forks-url]: https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy/network/members
+[stars-shield]: https://img.shields.io/github/stars/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy.svg?style=for-the-badge
+[stars-url]: https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy.svg?style=for-the-badge
+[issues-url]: https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy/issues
+[license-shield]: https://img.shields.io/github/license/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy.svg?style=for-the-badge
+[license-url]: https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vjrsz
 [email]: https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white
