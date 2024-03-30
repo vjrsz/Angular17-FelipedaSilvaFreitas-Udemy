@@ -10,8 +10,8 @@ describe('CardRoxoComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [CardRoxoComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(CardRoxoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

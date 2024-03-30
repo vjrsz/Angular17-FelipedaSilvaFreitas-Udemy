@@ -7,19 +7,19 @@ import {CardRoxoButtonComponent} from "../card-roxo-button/card-roxo-button.comp
 import {CardButtonCancelComponent} from "../card-button-cancel/card-button-cancel.component";
 
 @NgModule({
-    declarations: [
-        CardComponent,
-        CardRoxoComponent,
-        CardButtonComponent,
-        CardRoxoButtonComponent,
-        CardButtonCancelComponent
-    ],
-    imports: [
-        CommonModule
-    ],
-    exports: [
-        CardComponent,
-        CardRoxoComponent
-    ]
+  declarations: [
+    CardComponent,
+    CardRoxoComponent,
+    CardButtonComponent,
+    CardRoxoButtonComponent,
+    CardButtonCancelComponent
+  ],
+  imports: [
+    CommonModule
+  ],
+  exports: [
+    CardComponent,
+    CardRoxoComponent
+  ]
 })
 export class CardsModule { }

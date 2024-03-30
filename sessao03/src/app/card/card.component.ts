@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 
 
 interface IPlan {
-    infos: IInfos
+  infos: IInfos
 }
 
 interface IInfos {
-    type: String,
-    price: number
+  type: string,
+  price: number
 }
 
 @Component({
@@ -17,14 +17,14 @@ interface IInfos {
 })
 
 export class CardComponent {
-    plan: IPlan = {
-        infos: {
-            type: 'Simples',
-            price: 100
-        }
+  plan: IPlan = {
+    infos: {
+      type: 'Simples',
+      price: 100
     }
+  }
 
-    getFullPrice(){
-        return `R$ ${this.plan.infos?.price}/mês`;
-    }
+  getFullPrice(){
+    return `R$ ${this.plan.infos?.price}/mês`;
+  }
 }
