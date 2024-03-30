@@ -9,7 +9,7 @@ import { InlineComponent } from './inline/inline.component';
 @NgModule({
     declarations: [
         AppComponent,
-        InlineComponent
+        InlineComponent,
     ],
     imports: [
         BrowserModule,
