@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CardComponent } from "../app/card/card.component";
-import {CardRoxoComponent} from "../app/card-roxo/card-roxo.component";
-import {CardButtonComponent} from "../app/card-button/card-button.component";
-import {CardRoxoButtonComponent} from "../app/card-roxo-button/card-roxo-button.component";
+import { CardComponent } from "../card/card.component";
+import {CardRoxoComponent} from "../card-roxo/card-roxo.component";
+import {CardButtonComponent} from "../card-button/card-button.component";
+import {CardRoxoButtonComponent} from "../card-roxo-button/card-roxo-button.component";
 
 @NgModule({
     declarations: [
