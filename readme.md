@@ -61,7 +61,7 @@ Projeto tem como base o aprendizado do Angular 16/17 com o curso do Felipe na UD
 ### Key Features
 
 <ul>
-  <li></li>
+  <li>Sessão 03</li>
 </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -81,7 +81,10 @@ Projeto tem como base o aprendizado do Angular 16/17 com o curso do Felipe na UD
    ```sh
    git clone https://github.com/vjrsz/Angular17-FelipedaSilvaFreitas-Udemy
    ```
-2. Install maven Dependencies
+2. Run: 
+   ```sh
+   npm instal
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
