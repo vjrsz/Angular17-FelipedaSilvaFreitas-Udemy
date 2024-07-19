@@ -2,3 +2,7 @@
 
 <button (click)="changeDisabledInput()">Habilitar</button>
 <button (click)="changeTypeInput()">Mostrar</button>
+
+<br>
+
+<button [attr.title]="buttonTitle" [attr.disabled]="buttonDisabled ? true : null">Texto</button>

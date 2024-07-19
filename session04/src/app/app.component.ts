@@ -10,6 +10,8 @@ export class AppComponent {
   inputText = "Valor alterado";
   inputType = "text";
   isDisabled = false;
+  buttonTitle = "titulo";
+  buttonDisabled = false;
 
   changeDisabledInput(){
     this.isDisabled = !this.isDisabled
@@ -23,4 +25,5 @@ export class AppComponent {
     let target = $event.target as HTMLInputElement;
     console.log(target.value);
   }
+
 }
