@@ -4,9 +4,11 @@
 <button (click)="changeTypeInput()">Mostrar</button>
 
 <br>
+<br>
 
 <button [attr.title]="buttonTitle" [attr.disabled]="buttonDisabled ? true : null">Texto</button>
 
+<br>
 <br>
 
 <button [style]="{ color: 'white', backgroundColor: 'black' }">Background</button>
@@ -16,3 +18,11 @@
 <button (click)="updateStyleButton()">Atualizar</button>
 
 <br>
+<br>
+
+<button [class.green-button]="true">Verde</button>
+<button [class.red-button]="isRedButton">Vermelho</button>
+<button [class]="{
+  'red-button' : !isGreenButton,
+  'green-button' : isGreenButton
+}" (click)="isGreenButton = !isGreenButton">Objeto</button>

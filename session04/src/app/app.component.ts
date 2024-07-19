@@ -14,6 +14,8 @@ export class AppComponent {
   buttonDisabled = false;
   buttonBackground = "green";
   styleObj = { color: 'white', backgroundColor: 'black' };
+  isRedButton = true;
+  isGreenButton = true;
 
   changeDisabledInput(){
     this.isDisabled = !this.isDisabled
