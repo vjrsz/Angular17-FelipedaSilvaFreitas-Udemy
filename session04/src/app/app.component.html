@@ -6,3 +6,13 @@
 <br>
 
 <button [attr.title]="buttonTitle" [attr.disabled]="buttonDisabled ? true : null">Texto</button>
+
+<br>
+
+<button [style]="{ color: 'white', backgroundColor: 'black' }">Background</button>
+<button [style]="styleObj">Background</button>
+<button [style.background]="'black'">Background</button>
+<button [style.background]="buttonBackground">Background</button>
+<button (click)="updateStyleButton()">Atualizar</button>
+
+<br>

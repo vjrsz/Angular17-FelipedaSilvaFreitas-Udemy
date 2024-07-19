@@ -12,6 +12,8 @@ export class AppComponent {
   isDisabled = false;
   buttonTitle = "titulo";
   buttonDisabled = false;
+  buttonBackground = "green";
+  styleObj = { color: 'white', backgroundColor: 'black' };
 
   changeDisabledInput(){
     this.isDisabled = !this.isDisabled
@@ -26,4 +28,10 @@ export class AppComponent {
     console.log(target.value);
   }
 
+  updateStyleButton() {
+    this.styleObj = {
+      backgroundColor: 'white',
+      color: 'black',
+    }
+  }
 }
