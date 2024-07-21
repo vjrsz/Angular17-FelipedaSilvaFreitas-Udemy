@@ -8,4 +8,8 @@ import {Component, Input} from '@angular/core';
 export class CardComponent {
   @Input("planTypeAlias") planType: string = "";
   @Input({ required: true, "alias" : "planPrice"}) planPrice: number = 0;
+
+  buttonClicked($event: boolean) {
+    console.log($event);
+  }
 }
