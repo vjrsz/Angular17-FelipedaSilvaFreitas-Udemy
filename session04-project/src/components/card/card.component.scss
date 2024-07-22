@@ -1,0 +1,30 @@
+.card {
+  max-width: 350px;
+  border-radius: 25px;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+
+  &__item {
+    padding: 10px;
+  }
+
+  &__plan {
+    font-size: 22px;
+  }
+
+  &__price {
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  &__orange{
+    background-color: #fd7557;
+  }
+
+  &__purple{
+    background-color: #ede1ff;
+  }
+}
+:host ::ng-deep .card-button-cancel {
+  background-color: #5cb85c !important;
+}
