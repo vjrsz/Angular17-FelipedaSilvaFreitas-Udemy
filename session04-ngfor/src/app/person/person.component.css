@@ -1,0 +1,21 @@
+
+.item {
+  margin: 10px 0;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+.item--odd{
+  color: white;
+  background-color: green;
+}
+.item--highlighted{
+  color: white;
+  background-color: #a056d9;
+}
+.item__name{
+  font-size: 1.5rem;
+}

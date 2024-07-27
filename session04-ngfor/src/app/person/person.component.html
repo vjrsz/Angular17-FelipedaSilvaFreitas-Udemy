@@ -1,0 +1,8 @@
+<div class="item"
+     [class.item--odd]="isOdd"
+     [class.item--highlighted]="isSelected"
+     (click)="select()"
+>
+  <p class="item__name">{{ index }} - {{ name }}</p>
+  <p class="item__age">{{ age }} anos</p>
+</div>

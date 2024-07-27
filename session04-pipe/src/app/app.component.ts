@@ -3,12 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
-  prop: boolean = true;
-
-  toogleProp(){
-    this.prop = !this.prop
-  }
+  title = 'session04-pipe';
 }
